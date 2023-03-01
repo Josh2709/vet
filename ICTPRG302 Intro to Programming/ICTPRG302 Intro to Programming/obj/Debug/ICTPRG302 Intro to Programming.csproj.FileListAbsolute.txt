@@ -1,0 +1,7 @@
+/Users/joshuahill/Desktop/Year 11/ICTPRG302 Intro to Programming/ICTPRG302 Intro to Programming/bin/Debug/ICTPRG302 Intro to Programming.exe.config
+/Users/joshuahill/Desktop/Year 11/ICTPRG302 Intro to Programming/ICTPRG302 Intro to Programming/bin/Debug/ICTPRG302 Intro to Programming.exe
+/Users/joshuahill/Desktop/Year 11/ICTPRG302 Intro to Programming/ICTPRG302 Intro to Programming/obj/Debug/ICTPRG302 Intro to Programming.csproj.AssemblyReference.cache
+/Users/joshuahill/Desktop/Year 11/ICTPRG302 Intro to Programming/ICTPRG302 Intro to Programming/obj/Debug/ICTPRG302 Intro to Programming.csproj.CoreCompileInputs.cache
+/Users/joshuahill/Desktop/Year 11/ICTPRG302 Intro to Programming/ICTPRG302 Intro to Programming/bin/Debug/ICTPRG302 Intro to Programming.pdb
+/Users/joshuahill/Desktop/Year 11/ICTPRG302 Intro to Programming/ICTPRG302 Intro to Programming/obj/Debug/ICTPRG302 Intro to Programming.exe
+/Users/joshuahill/Desktop/Year 11/ICTPRG302 Intro to Programming/ICTPRG302 Intro to Programming/obj/Debug/ICTPRG302 Intro to Programming.pdb
