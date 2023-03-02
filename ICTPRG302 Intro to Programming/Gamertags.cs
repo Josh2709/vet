@@ -66,7 +66,7 @@ namespace ICTPRG302_Intro_to_Programming
                 //test each gamertag to make sure it has atleast one number in
                 //then, tests if the LAST number in the gamertag is a number
                 //if statement will execute if both statements are met
-                if ((s.Length > 0) && !Char.IsNumber(s, s.Length - 1))
+                if ((s.Length > 0) && Char.IsNumber(s, s.Length - 1))
                 {
                     //formats the gamertags one per line and puts a number in front. Listing them 1,2,3, etc. 
                     Console.WriteLine(lineNumber.ToString() + ")" + s);
@@ -82,7 +82,7 @@ namespace ICTPRG302_Intro_to_Programming
 
 
 
-        public void Char.IsLetterOrDigit()
+        public void PrintGamertagsNotEndingWithNumber()
         {
             Console.Clear();
             Console.WriteLine("====================");
@@ -96,7 +96,7 @@ namespace ICTPRG302_Intro_to_Programming
                 //test each gamertag to make sure it has atleast one number in
                 //then, tests if the LAST number in the gamertag is a number
                 //if statement will execute if both statements are met
-                if ((s.Length > 0) && Char.IsNumber(s, s.Length - 1))
+                if ((s.Length > 0) && !Char.IsNumber(s, s.Length - 1))
                 {
                     //formats the gamertags one per line and puts a number in front. Listing them 1,2,3, etc. 
                     Console.WriteLine(lineNumber.ToString() + ")" + s);
@@ -106,8 +106,7 @@ namespace ICTPRG302_Intro_to_Programming
 
             }
             //display "Press any key to continue..." to the user, reqcuiring a key press to continue.
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
+           
         }
 
 
