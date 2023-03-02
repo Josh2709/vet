@@ -82,6 +82,37 @@ namespace ICTPRG302_Intro_to_Programming
 
 
 
+
+
+
+        public void PrintGamertagsStartingWithSymbol()
+        {
+            Console.Clear();
+            Console.WriteLine("====================");
+            Console.WriteLine("Gamertags starting with a symbol");
+            Console.WriteLine("====================");
+            //loop over list of gamertags and print em' on new line
+
+            int lineNumber = 1; //variable that acts as a bullet list counter for each line 
+            foreach (string s in gamerTagList)
+            {
+                //test each gamertag to make sure the length is higher than 0
+                //then, tests if the first character in the gamertag is a symbol
+                //if statement will execute if both statements are met
+                if ((s.Length > 0) && !Char.IsLetterOrDigit(s, 0))
+                {
+                    //formats the gamertags one per line and puts a number in front. Listing them 1,2,3, etc. 
+                    Console.WriteLine(lineNumber.ToString() + ")" + s);
+
+                    lineNumber = lineNumber + 1;
+                }
+
+            }
+            //display "Press any key to continue..." to the user, reqcuiring a key press to continue.
+
+        }
+
+
         public void PrintGamertagsNotEndingWithNumber()
         {
             Console.Clear();
